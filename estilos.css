@@ -103,3 +103,15 @@ section {
 .home {
   background-image: url(phpCode.png);
 }
+
+p > a {
+  color: black;
+}
+
+button {
+  padding: 5px 30px;
+  background-color: rgb(3, 136, 245);
+  border-style: none;
+  margin: auto 50px;
+  border-radius: 5px;
+}
