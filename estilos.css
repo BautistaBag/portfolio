@@ -1,6 +1,7 @@
 body {
   color: #fff;
   height: 100%;
+  margin: 0%;
 }
 
 .presupuesto_titulo {
@@ -12,13 +13,12 @@ body {
 }
 
 .home {
-  min-height: 100vh;
   display: flex;
   padding: 30px;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.8);
-  position: relative;
+  position: auto;
   font-family: serif;
 }
 
@@ -96,6 +96,7 @@ section {
 
 .home {
   background-image: url(phpCode.png);
+  margin: auto;
 }
 
 p > a {
@@ -113,13 +114,4 @@ button {
 a :hover {
   background-color: grey;
   border-radius: 50px;
-}
-
-.container {
-  width: 100%;
-  display: inherit;
-  max-width: 1200px;
-  justify-content: inherit;
-  margin: 0 auto;
-  padding: 0 20px;
 }
