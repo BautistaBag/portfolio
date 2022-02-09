@@ -1,16 +1,10 @@
 body {
   color: #fff;
   height: 100%;
-  margin: 0;
 }
+
 .presupuesto_titulo {
   color: rgb(0, 107, 194);
-}
-h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 15px;
 }
 
 .home {
@@ -72,7 +66,7 @@ nav {
 }
 
 div {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .texto {
@@ -89,7 +83,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  margin: 50px;
 }
 
 section {
@@ -98,6 +91,9 @@ section {
   padding-right: 20cm;
   font-weight: bold;
   padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
 }
 
 .home {
@@ -114,4 +110,18 @@ button {
   border-style: none;
   margin: auto 50px;
   border-radius: 5px;
+}
+
+a :hover {
+  background-color: grey;
+  border-radius: 50px;
+}
+
+.container {
+  width: 100%;
+  display: inherit;
+  max-width: 1200px;
+  justify-content: inherit;
+  margin: 0 auto;
+  padding: 0 20px;
 }
